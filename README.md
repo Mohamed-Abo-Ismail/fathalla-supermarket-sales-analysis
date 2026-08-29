@@ -24,6 +24,11 @@ with no date or cost fields (branch-level sales snapshot).
   Group, Subgroup, Item Code, Barcode, Item Name, Net Sales Quantity, Net Sales Value
 - **Limitations:** No date/time field, no cost/profit field
 
+ ## 📌 Note on Data
+The raw dataset used in this project belongs to Fathalla Supermarket and is 
+not publicly shared due to business confidentiality. This repository showcases 
+the analysis process, dashboard, and insights derived from the data. 
+
 ## 🧹 Data Cleaning
 - Removed 21 duplicate rows (based on Branch Code + Item Code + Barcode)
 - Validated and corrected data types (Number vs. Currency)
